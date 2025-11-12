@@ -21,7 +21,7 @@ DHT dht(DHTPIN, DHTTYPE);
 #define WIFI_PASSWORD "antony...."
 
 // Insert Firebase project API Key
-#define API_KEY "AIzaSyA7n6EIptQemdhzDT7a1CpHlE35OAX03iU"
+#define API_KEY "YOUR_API_KAY"
 
 // Insert RTDB URLefine the RTDB URL */
 #define DATABASE_URL "dht11-fa1e5-default-rtdb.asia-southeast1.firebasedatabase.app/" 
@@ -106,3 +106,4 @@ void loop(){
   }
   Serial.println("______________________________");
 }
+
